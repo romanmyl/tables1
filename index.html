@@ -5,19 +5,45 @@
     </head>
     <body>
         <table border="1">
-            <th></th><th>Column 1</th><th>Column 4</th><th>Column 3</th>
-            <tr>
-                <th>Row 1</th><td>1<td>2<td>3</td></td></td>
-            </tr>
-            <tr>
+            <thead>
+                <th></th><th>Column 1</th><th>Column 4</th><th>Column 3</th>
+            </thead>
+            <tbody>
+                <tr>
+                <th>Row 1</th><td>1<td>2<td rowspan="3">3</td>
+                </tr>
+                <tr>
                 <th>Row 2</th><td>4<td>5<td>6</td></td></td>
-            </tr>
-            
+                </tr>
+            </tbody>
             <tr>
                 </th>Row 3<td>7<td>8<td>9</td></td></td>
             </tr>
+                <th>Summary<td colspan="3"></td>
+                    
+                </th>
             
     </table>
+    
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <ul reversed>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+        
+    
+        
+    
 
     </body>
 </html>
